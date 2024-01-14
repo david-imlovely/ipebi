@@ -1,0 +1,126 @@
+body {
+  color: rgb(0, 66, 0);
+  background-color: rgba(102, 126, 102, 0.1);
+}
+
+.navbar {
+  z-index: 5;
+}
+
+/* Nav */
+
+.nav-link {
+  color: rgb(0, 66, 0);
+}
+
+.hero {
+  /* min-height: 100vh; */
+  max-height: 100vh;
+  max-width: 100vw;
+  /* background-size: cover; */
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-text {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 70%;
+}
+
+.hero-text h1 {
+  margin: 0.7rem 0;
+  font-size: x-large;
+  color: white;
+}
+.hero-text p {
+  margin: 0.7rem 0;
+  font-size: normal;
+  color: white;
+}
+
+.carousel-item {
+  min-width: 100vw; /* Rectangular width */
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: auto;
+  min-height: 100vh;
+  object-fit: cover;
+}
+/* .slide {
+  min-width: 100vw;
+  max-height: 100vh;
+  z-index: 1;
+} */
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+}
+
+.section-container {
+  margin: 3rem;
+  text-align: center;
+}
+
+.sub-section {
+  align-items: center;
+}
+
+.end {
+  margin: auto;
+}
+.end h1 {
+  text-align: start;
+  margin-bottom: 1rem;
+}
+.end p {
+  text-align: justify;
+}
+
+.start {
+  margin: auto;
+}
+.start h1 {
+  text-align: end;
+  margin-bottom: 1rem;
+}
+.start p {
+  text-align: justify;
+}
+
+.pic {
+  width: 30%;
+  height: auto;
+  display: inline-block;
+}
+
+.intro {
+  text-align: center;
+  margin: 3rem auto 3rem auto;
+}
+
+.logo {
+  max-width: 25%;
+  height: auto;
+  margin: auto;
+}
+
+hr {
+  width: 10%;
+  border-top: 7px dotted rgb(255, 159, 159);
+  margin: auto;
+}
