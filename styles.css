@@ -3,8 +3,21 @@ body {
   background-color: rgba(102, 126, 102, 0.1);
 }
 
+.about-item {
+  margin-top: 4rem;
+}
+
+.gallery-pic {
+  max-width: 100px;
+}
+
+.image-div {
+  padding: 5px;
+}
+
 .navbar {
   z-index: 5;
+  border-bottom: 1px solid rgb(255, 159, 159);
 }
 
 /* Nav */
@@ -144,4 +157,52 @@ hr {
 
 #myBtn:hover {
   background-color: gray; /* Add a dark-grey background on hover */
+}
+
+.history {
+  text-align: justify;
+  margin: 0 7% 0 7%;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.leaders-container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4rem auto;
+}
+.card {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h2 {
+  margin-bottom: 8px;
+}
+
+.card-content p {
 }
