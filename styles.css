@@ -8,7 +8,7 @@ body {
 }
 
 .gallery-pic {
-  max-width: 100px;
+  max-width: 200px;
 }
 
 .image-div {
@@ -48,8 +48,8 @@ body {
 
 .hero-text h1 {
   margin: 0.7rem 0;
-  font-size: x-large;
   color: white;
+  font-size: 7vw;
 }
 .hero-text p {
   margin: 0.7rem 0;
@@ -69,11 +69,6 @@ body {
   min-height: 100vh;
   object-fit: cover;
 }
-/* .slide {
-  min-width: 100vw;
-  max-height: 100vh;
-  z-index: 1;
-} */
 
 .gradient-overlay {
   position: absolute;
@@ -96,13 +91,6 @@ body {
 .end {
   margin: auto;
 }
-.end h1 {
-  text-align: start;
-  margin-bottom: 1rem;
-}
-.end p {
-  text-align: justify;
-}
 
 .start {
   margin: auto;
@@ -116,7 +104,7 @@ body {
 }
 
 .pic {
-  width: 30%;
+  width: 50%;
   height: auto;
   display: inline-block;
 }
@@ -161,7 +149,7 @@ hr {
 
 .history {
   text-align: justify;
-  margin: 0 7% 0 7%;
+  margin: 0 12% 0 12%;
 }
 
 ul {
@@ -204,5 +192,38 @@ li {
   margin-bottom: 8px;
 }
 
-.card-content p {
+.other-heading {
+  display: block;
+  text-align: start;
+  text-decoration-line: underline;
+}
+
+.link-no-style a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cultural {
+  text-align: center;
+  margin: 0 20% 0 20%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cultural-item + .cultural-item img {
+  max-width: 400px;
+}
+
+.outro {
+  text-align: center;
+  padding: 0 20% 0 20%;
+  margin: 3rem 0 3rem 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: white;
+  margin: 3rem 0 0 0;
+  padding: 2rem;
+  background-color: rgb(102, 126, 102);
 }
