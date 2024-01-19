@@ -204,13 +204,22 @@ li {
 }
 
 .cultural {
-  text-align: center;
-  margin: 0 20% 0 20%;
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 20px;
 }
-.cultural-item + .cultural-item img {
-  max-width: 400px;
+.cultural-item {
+  margin-bottom: 40px;
+}
+
+.cultural-item img {
+  max-width: 40%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.cultural-item p {
+  text-align: justify;
 }
 
 .outro {
