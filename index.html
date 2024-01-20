@@ -84,6 +84,13 @@
       <div class="hero-text">
         <h1>Ipebi Chronicles</h1>
         <p>Exploring the rich stories and culture of Ipebi Land</p>
+        <button class="pop-button btn btn-light" id="open-btn">
+          view invite
+        </button>
+        <div id="popup-container">
+          <img src="images/pebi4christ.jpg" class="pop-image" alt="" />
+          <p style="color: black">You are cordially invited</p>
+        </div>
       </div>
     </div>
 
@@ -250,5 +257,18 @@
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
+    <script>
+      document.getElementById('open-btn').addEventListener('click', function() {
+        document.getElementById('popup-container').style.display = 'block';
+      });
+    
+      document.addEventListener('click', function(event) {
+        var popup = document.getElementById('popup-container');
+        if (!popup.contains(event.target) && event.target !== document.getElementById('open-btn')) {
+          popup.style.display = 'none';
+        }
+      });
+    </script>
+    </script>
   </body>
 </html>
